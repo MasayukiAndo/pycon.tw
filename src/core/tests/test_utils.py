@@ -10,6 +10,7 @@ def test_collect_language_codes():
         'en-us', 'en', 'en-us', 'en', '_default',
     ]
     assert collect_language_codes('en') == ['en', 'en-us', 'en', '_default']
+    assert collect_language_codes('ja') == ['ja', 'en-us', 'en', '_default']
 
 
 def test_split_css_class():
