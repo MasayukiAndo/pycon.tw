@@ -22,4 +22,9 @@ class Migration(migrations.Migration):
             name='intro_zh_hant',
             field=models.TextField(null=True, verbose_name='Introduction'),
         ),
+        migrations.AddField(
+            model_name='sponsor',
+            name='intro_ja_jp',
+            field=models.TextField(null=True, verbose_name='Introduction'),
+        ),
     ]

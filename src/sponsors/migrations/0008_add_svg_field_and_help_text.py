@@ -35,6 +35,11 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='sponsor',
+            name='intro_ja_jp',
+            field=models.TextField(null=True, verbose_name='introduction'),
+        ),
+        migrations.AlterField(
+            model_name='sponsor',
             name='logo_image',
             field=models.ImageField(help_text='Raster format of the logo, e.g. PNG, JPEG. This is used as fallback when the SVG file is not available.', upload_to=sponsors.models.logo_upload_to, verbose_name='logo (image)'),
         ),
