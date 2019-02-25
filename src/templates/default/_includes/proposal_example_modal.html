@@ -50,7 +50,7 @@ var example_title = {
     <dt>{% trans 'Duration' %}</dt> <dd>25min</dd>
 
     <dt>{% trans 'Language' %}</dt>
-    <dd>{% if LANGUAGE_CODE == "zh-hant" %}中文{% else %}English{% endif %}</dd>
+    <dd>{% if LANGUAGE_CODE == "zh-hant" %}中文{% elif LANGUAGE_CODE == "ja-jp" %}日本語{% else %}English{% endif %}</dd>
   </dl>
 </script>
 
@@ -67,6 +67,6 @@ var example_title = {
     <dt>{% trans 'Duration' %}</dt> <dd>25min</dd>
 
     <dt>{% trans 'Language' %}</dt>
-    <dd>{% if LANGUAGE_CODE == "zh-hant" %}中文{% else %}English{% endif %}</dd>
+    <dd>{% if LANGUAGE_CODE == "zh-hant" %}中文{% elif LANGUAGE_CODE == "ja-jp" %}日本語{% else %}English{% endif %}</dd>
   </dl>
 </script>
