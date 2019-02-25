@@ -150,14 +150,14 @@ LANGUAGE_CODE = 'en'
 
 LANGUAGES = [
     ('zh-hant', 'Traditional Chinese'),
-    ('en-us',   'English (US)'),
     ('ja-jp',   'Japanese'),
+    ('en-us',   'English (US)'),
 ]
 
 FALLBACK_LANGUAGE_PREFIXES = {
     'zh': 'zh-hant',
-    'en': 'en-us',
     'ja': 'ja-jp',
+    'en': 'en-us',
 }
 
 if 'en-us' not in locale.LANG_INFO:
@@ -167,6 +167,14 @@ if 'en-us' not in locale.LANG_INFO:
         'name': 'English (US)',
         'name_local': 'English (US)',
     }
+if 'ja-jp' not in locale.LANG_INFO:
+    locale.LANG_INFO['ja-jp'] = {
+        'bidi': False,
+        'code': 'ja-jp',
+        'name': 'Japanese',
+        'name_local': 'Japanese',
+    }
+
 
 # Path to the local .po and .mo files
 LOCALE_PATHS = (
