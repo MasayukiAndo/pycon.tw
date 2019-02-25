@@ -14,6 +14,7 @@
 # Tzu-ping Chung <uranusjr@gmail.com>, 2015-2018
 # Yuan CHAO <yuanchao@gmail.com>, 2017
 # 豆豆 (Tommy Lin) <gnat_lin@hotmail.com>, 2017
+# Hisa_X <hisa_x@init.tw>, 2019
 msgid ""
 msgstr "Project-Id-Version: PyCon TW\n"
 "Report-Msgid-Bugs-To: \n"
@@ -42,7 +43,7 @@ msgstr "タイトル"
 
 #: core/models.py:84
 msgid "Best Practices & Patterns"
-msgstr "ベストプラクティス & パターン最佳實踐與慣例"
+msgstr "ベストプラクティス & パターン"
 
 #: core/models.py:85 templates/pycontw-2018/_includes/footer.html:12
 msgid "Community"
@@ -1644,7 +1645,7 @@ msgstr "我們搞砸了，這不是你的問題。"
 #: templates/pycontw-2016/_includes/nav/front_nav.html:29
 #: templates/pycontw-2018/_includes/menu.html:29
 msgid "About"
-msgstr "關於"
+msgstr "About"
 
 #: templates/pycontw-2016/_includes/nav/front_nav.html:32
 #: templates/pycontw-2018/_includes/footer.html:10
@@ -1666,7 +1667,7 @@ msgstr "イベント"
 
 #: templates/pycontw-2016/_includes/nav/front_nav.html:39
 msgid "Overview"
-msgstr "總覽"
+msgstr "概要"
 
 #: templates/pycontw-2016/_includes/nav/front_nav.html:41
 #: templates/pycontw-2018/_includes/menu.html:55
@@ -1771,7 +1772,7 @@ msgstr "議程時間表會<span class=\"text-emphasize\">隨狀況更新</span>�
 #: templates/pycontw-2016/events/schedule.html:39
 #: templates/pycontw-2017/events/schedule.html:21
 msgid "Quick Jump"
-msgstr "跳至"
+msgstr "ジャンプ"
 
 #: templates/pycontw-2016/events/schedule_create.html:15
 #: templates/pycontw-2017/events/schedule_create.html:71
@@ -1783,19 +1784,19 @@ msgstr "需要 JavaScript 才能產生時間表。求求你～ (´･_･`)"
 #: templates/pycontw-2017/events/schedule_create.html:82
 #: templates/pycontw-2018/events/schedule_create.html:73
 msgid "Generate"
-msgstr "產生"
+msgstr "作成"
 
 #: templates/pycontw-2016/events/sponsored_event_detail.html:27
 #: templates/pycontw-2016/events/talk_detail.html:27
 #: templates/pycontw-2017/events/talk_detail.html:49
 msgid "Slides Link"
-msgstr "投影片連結"
+msgstr "スライドへのリンク"
 
 #: templates/pycontw-2016/events/sponsored_event_detail.html:35
 #: templates/pycontw-2016/events/talk_detail.html:35
 #: templates/pycontw-2018/events/talk_detail.html:53
 msgid "Description"
-msgstr "說明"
+msgstr "説明"
 
 #: templates/pycontw-2016/events/talk_list.html:14
 #, python-format
@@ -1874,7 +1875,7 @@ msgstr "<span> %(value)s %(type)s</span>後 PyConTW 會場見～"
 
 #: templates/pycontw-2016/index.html:62
 msgid "Check the schedule"
-msgstr "看議程"
+msgstr "スケジュールを確認"
 
 #: templates/pycontw-2016/index.html:74
 msgid ""
@@ -1882,8 +1883,8 @@ msgid ""
 "The original PyCon was formed in North America in 2003, and now there are "
 "many other conferences being run in the PyCon spirit around the world. "
 "</div>"
-msgstr "<h2 class=\"intro__heading\">何謂 PyCon</h2>\n"
-"<div class=\"intro__body\">PyCon 最初於 2003 成立於北美，現在世界各地皆有以 PyCon 精神而成立的會議。</div>"
+msgstr "<h2 class=\"intro__heading\">PyCon について</h2>\n"
+"<div class=\"intro__body\">PyCon は 2003 年に北米で成立し、現在世界各地で PyCon 精神をもって開催されているカンファレンスです。</div>"
 
 #: templates/pycontw-2016/index.html:86
 msgid ""
@@ -1894,7 +1895,7 @@ msgid ""
 "applications. We welcome people who are interested in Python to join PyCon "
 "Taiwan to share knowledge, exchange ideas, make connections and to help us "
 "grow our network. </div>"
-msgstr "<h2 class=\"intro__heading\">何謂 PyCon Taiwan</h2> <div class=\"intro__body\">\n"
+msgstr "<h2 class=\"intro__heading\">PyCon Taiwan について</h2> <div class=\"intro__body\">\n"
 "PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。</div>"
 
 #: templates/pycontw-2016/index.html:102
@@ -1910,7 +1911,7 @@ msgstr ""
 
 #: templates/pycontw-2016/index.html:132
 msgid "Python Community in Taiwan"
-msgstr "臺灣的 Python 社群"
+msgstr "台湾の Python コミュニティ"
 
 #: templates/pycontw-2016/index.html:186
 msgid "Patronage 2016 available!"
@@ -1928,7 +1929,7 @@ msgstr ""
 
 #: templates/pycontw-2016/index.html:248
 msgid "Sponsors"
-msgstr "贊助夥伴"
+msgstr "スポンサー"
 
 #: templates/pycontw-2016/registration/password_reset_confirm.html:25
 #, python-format
@@ -1940,7 +1941,7 @@ msgid ""
 msgstr "<p>密碼重設連結已失效，它可能已經被使用。您可以嘗試</p>\n"
 "<ul>\n"
 "<li><a href=\"%(password_reset_url)s\">重新申請密碼重設</a>，或者</li>\n"
-"<li><a href=\"%(index_url)s\">回到首頁</a>。</li>\n"
+"<li><a href=\"%(index_url)s\">ホームへ戻る</a>。</li>\n"
 "</ul>"
 
 #: templates/pycontw-2016/registration/signup.html:25
@@ -1952,11 +1953,11 @@ msgstr "<span class=\"form-tip\">已經有帳號了？</span><a href=\"%(login_u
 
 #: templates/pycontw-2017/_includes/header.html:48
 msgid "about"
-msgstr "關於"
+msgstr "about"
 
 #: templates/pycontw-2017/_includes/header.html:51
 msgid "pycon taiwan"
-msgstr "台灣 PyCon"
+msgstr "PyCon 台湾"
 
 #: templates/pycontw-2017/_includes/header.html:52
 msgid "code of conduct"
@@ -1973,7 +1974,7 @@ msgstr "スケジュール"
 #: templates/pycontw-2017/_includes/header.html:61
 #: templates/pycontw-2018/_includes/menu.html:53
 msgid "overview"
-msgstr "活動總覽"
+msgstr "イベント概要"
 
 #: templates/pycontw-2017/_includes/header.html:62
 msgid "keynotes"
@@ -2095,7 +2096,7 @@ msgstr "%(date_display)s，%(begin_time_display)s&#8209;%(end_time_display)s"
 
 #: templates/pycontw-2017/events/talk_detail.html:28
 msgid "Invited event"
-msgstr "特邀活動"
+msgstr "招待イベント"
 
 #: templates/pycontw-2017/events/talk_detail.html:32
 #: templates/pycontw-2018/events/schedule.html:31
@@ -2241,7 +2242,7 @@ msgstr "パートナー"
 
 #: templates/pycontw-2018/_includes/sponsors.html:70
 msgid "Enquire about sponsorship"
-msgstr "詢問贊助辦法"
+msgstr "スポンサー問い合わせ"
 
 #: templates/pycontw-2018/_includes/staff.html:3
 msgctxt "staff"
@@ -2304,7 +2305,7 @@ msgstr "英語講演"
 
 #: templates/pycontw-2018/events/schedule.html:25
 msgid "Mandarin speech"
-msgstr "中国語講演"
+msgstr "中文講演"
 
 #: templates/pycontw-2018/events/schedule.html:26
 msgid "English slides"
@@ -2378,17 +2379,17 @@ msgstr "<a class=\"talk-title\" href=\"%(event_talk_detail_url)s\">%(proposal_ti
 
 #: templates/pycontw-2018/index.html:32
 msgid "What is PyCon"
-msgstr "PyCon とは"
+msgstr "PyCon について"
 
 #: templates/pycontw-2018/index.html:33
 msgid ""
 "<p>The original PyCon was formed in North America in 2003, and now there are"
 " many other conferences being run in the PyCon spirit around the world.</p>"
-msgstr "<p>PyCon 最初於 2003 成立於北美，現在世界各地皆有以 PyCon 精神而成立的會議。</p>"
+msgstr "<p>PyCon は 2003 年に北米で成立し、現在世界各地で PyCon 精神をもって開催されているカンファレンスです。</p>"
 
 #: templates/pycontw-2018/index.html:39
 msgid "What is PyCon Taiwan"
-msgstr "PyCon Taiwan とは"
+msgstr "PyCon Taiwan について"
 
 #: templates/pycontw-2018/index.html:40
 msgid ""
@@ -2405,11 +2406,11 @@ msgstr "<p>協助我們舉辦，讓年會變得更好！</p>"
 
 #: templates/pycontw-2018/index.html:51
 msgid "Become a volunteer"
-msgstr "成為志工"
+msgstr "ボランティアに応募"
 
 #: users/admin.py:18
 msgid "Personal info"
-msgstr "個人介紹"
+msgstr "個人紹介"
 
 #: users/admin.py:27
 msgid "Permissions"
@@ -2417,7 +2418,7 @@ msgstr "権限"
 
 #: users/admin.py:36
 msgid "Important dates"
-msgstr "重要日期"
+msgstr "重要な日"
 
 #: users/forms.py:28
 msgid "A user with that email already exists."
