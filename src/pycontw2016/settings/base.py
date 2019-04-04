@@ -151,11 +151,13 @@ LANGUAGE_CODE = 'en'
 LANGUAGES = [
     ('zh-hant', 'Traditional Chinese'),
     ('en-us',   'English (US)'),
+    ('ja-jp',   'Japanese'),
 ]
 
 FALLBACK_LANGUAGE_PREFIXES = {
     'zh': 'zh-hant',
     'en': 'en-us',
+    'ja': 'ja-jp',
 }
 
 if 'en-us' not in locale.LANG_INFO:
